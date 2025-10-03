@@ -33,10 +33,10 @@ module.exports = function (_config) {
   return {
     expo: {
       version: VERSION,
-      name: 'Bluesky',
-      slug: 'bluesky',
-      scheme: 'bluesky',
-      owner: 'blueskysocial',
+      name: 'IHSAN',
+      slug: 'ihsan',
+      scheme: 'ihsan',
+      owner: 'omarharoun',
       runtimeVersion: {
         policy: 'appVersion',
       },
@@ -46,7 +46,7 @@ module.exports = function (_config) {
       newArchEnabled: false,
       ios: {
         supportsTablet: false,
-        bundleIdentifier: 'xyz.blueskyweb.app',
+        bundleIdentifier: 'com.ihsan.app',
         config: {
           usesNonExemptEncryption: false,
         },
@@ -60,7 +60,7 @@ module.exports = function (_config) {
             'Used to save images to your library.',
           NSPhotoLibraryUsageDescription:
             'Used for profile pictures, posts, and other kinds of content',
-          CFBundleSpokenName: 'Blue Sky',
+          CFBundleSpokenName: 'IHSAN',
           CFBundleLocalizations: [
             'en',
             'an',
@@ -151,7 +151,7 @@ module.exports = function (_config) {
           backgroundColor: '#1185FE',
         },
         googleServicesFile: './google-services.json',
-        package: 'xyz.blueskyweb.app',
+        package: 'com.ihsan.app',
         intentFilters: [
           {
             action: 'VIEW',
@@ -311,7 +311,7 @@ module.exports = function (_config) {
             },
 
             /**
-             * Bluesky+ core set
+             * IHSAN+ core set
              */
             core_aurora: {
               ios: './assets/app-icons/ios_icon_core_aurora.png',
@@ -370,8 +370,8 @@ module.exports = function (_config) {
               ios: {
                 appExtensions: [
                   {
-                    targetName: 'Share-with-Bluesky',
-                    bundleIdentifier: 'xyz.blueskyweb.app.Share-with-Bluesky',
+                    targetName: 'Share-with-IHSAN',
+                    bundleIdentifier: 'com.ihsan.app.Share-with-IHSAN',
                     entitlements: {
                       'com.apple.security.application-groups': [
                         'group.app.bsky',
@@ -379,8 +379,8 @@ module.exports = function (_config) {
                     },
                   },
                   {
-                    targetName: 'BlueskyNSE',
-                    bundleIdentifier: 'xyz.blueskyweb.app.BlueskyNSE',
+                    targetName: 'IHSANNSE',
+                    bundleIdentifier: 'com.ihsan.app.IHSANNSE',
                     entitlements: {
                       'com.apple.security.application-groups': [
                         'group.app.bsky',
@@ -388,8 +388,8 @@ module.exports = function (_config) {
                     },
                   },
                   {
-                    targetName: 'BlueskyClip',
-                    bundleIdentifier: 'xyz.blueskyweb.app.AppClip',
+                    targetName: 'IHSANClip',
+                    bundleIdentifier: 'com.ihsan.app.AppClip',
                   },
                 ],
               },
