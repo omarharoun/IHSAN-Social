@@ -16,6 +16,8 @@ There is a small amount of Go language source code (in `./bskyweb/`), for a web 
 
 The [Build Instructions](./docs/build.md) are a good place to get started with the app itself.
 
+For information on hosting IHSAN with your own Personal Data Server (PDS), see the [PDS Hosting Guide](./docs/hosting-pds.md).
+
 The Authenticated Transfer Protocol ("AT Protocol" or "atproto") is a decentralized social media protocol. You don't *need* to understand AT Protocol to work with this application, but it can help. Learn more at:
 
 - [Overview and Guides](https://atproto.com/guides/overview)
